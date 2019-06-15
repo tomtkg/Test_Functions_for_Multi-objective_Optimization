@@ -1,12 +1,12 @@
 # Test_Functions_for_Multi_Objective_Optimization
 test functions for optimization
-## ZDT
-|![image](image1/ZDT1_M2.svg)ZDT1|![image](image1/ZDT2_M2.svg)ZDT2|
-|:-:|:-:|
-|![image](image1/ZDT3_M2.svg)ZDT3|![image](image1/ZDT4_M2.svg)ZDT4|
-|![image](image1/ZDT5_M2.svg)ZDT5|![image](image1/ZDT6_M2.svg)ZDT6|
 
 ## DTLZ
+Benchmark MOP proposed by Deb, Thiele, Laumanns, and Zitzler
+Reference
+K. Deb, L. Thiele, M. Laumanns, and E. Zitzler, Scalable test problems
+for evolutionary multiobjective optimization, Evolutionary multiobjective
+Optimization. Theoretical Advances and Applications, 2005, 105-145.
 |![image](image1/DTLZ1_M2.svg)DTLZ1 (_m_=2)|![image](image1/DTLZ1_M3.svg)DTLZ1 (_m_=3)|
 |:-:|:-:|
 |![image](image1/DTLZ2_M2.svg)DTLZ2 (_m_=2)|![image](image1/DTLZ2_M3.svg)DTLZ2 (_m_=3)|
@@ -39,4 +39,40 @@ test functions for optimization
 |![image](image1/WFG8_M2.svg)WFG8(_m_=2)|![image](image1/WFG8_M3.svg)WFG8(_m_=3)|
 |![image](image1/WFG9_M2.svg)WFG9(_m_=2)|![image](image1/WFG9_M3.svg)WFG9(_m_=3)|
 
+## ZDT
+|![image](image2/ZDT1_M2.svg)ZDT1|![image](image2/ZDT2_M2.svg)ZDT2|
+|:-:|:-:|
+|![image](image2/ZDT3_M2.svg)ZDT3|![image](image2/ZDT4_M2.svg)ZDT4|
+|![image](image2/ZDT5_M2.svg)ZDT5|![image](image2/ZDT6_M2.svg)ZDT6|
+
+## BT
+|![image](image2/BT1_M2.svg)BT1|![image](image2/BT2_M2.svg)BT2|
+|:-:|:-:|
+|![image](image2/BT3_M2.svg)BT3|![image](image2/BT4_M2.svg)BT4|
+|![image](image2/BT5_M2.svg)BT5|![image](image2/BT6_M2.svg)BT6|
+|![image](image2/BT7_M2.svg)BT7|![image](image2/BT8_M2.svg)BT8|
+|![image](image2/BT9_M3.svg)BT9||
+
+## CF
+|![image](image2/CF1_M2.svg)CF1|![image](image2/CF2_M2.svg)CF2|
+|:-:|:-:|
+|![image](image2/CF3_M2.svg)CF3|![image](image2/CF4_M2.svg)CF4|
+|![image](image2/CF5_M2.svg)CF5|![image](image2/CF6_M2.svg)CF6|
+|![image](image2/CF7_M2.svg)CF7|![image](image2/CF8_M3.svg)CF8|
+|![image](image2/CF9_M3.svg)CF9|![image](image2/CF10_M3.svg)CF10|
+
+## IMOP
+|![image](image2/IMOP1_M2.svg)IMOP1|![image](image2/IMOP2_M2.svg)IMOP2|
+|:-:|:-:|
+|![image](image2/IMOP3_M2.svg)IMOP3|![image](image2/IMOP4_M3.svg)IMOP4|
+|![image](image2/IMOP5_M3.svg)IMOP5|![image](image2/IMOP6_M3.svg)IMOP6|
+|![image](image2/IMOP7_M3.svg)IMOP7|![image](image2/IMOP8_M3.svg)IMOP8|
+
+## IMMOEA
+|![image](image2/IMMOEA_F1_M2.svg)IMMOEA_F1|![image](image2/IMMOEA_F2_M2.svg)IMMOEA_F2|
+|:-:|:-:|
+|![image](image2/IMMOEA_F3_M2.svg)IMMOEA_F3|![image](image2/IMMOEA_F4_M3.svg)IMMOEA_F4|
+|![image](image2/IMMOEA_F5_M2.svg)IMMOEA_F5|![image](image2/IMMOEA_F6_M2.svg)IMMOEA_F6|
+|![image](image2/IMMOEA_F7_M2.svg)IMMOEA_F7|![image](image2/IMMOEA_F8_M3.svg)IMMOEA_F8|
+|![image](image2/IMMOEA_F9_M2.svg)IMMOEA_F9|![image](image2/IMMOEA_F10_M2.svg)IMMOEA_F10|
 
