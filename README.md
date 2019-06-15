@@ -3,10 +3,13 @@ test functions for optimization
 
 ## DTLZ
 Benchmark MOP proposed by Deb, Thiele, Laumanns, and Zitzler
+ 
 Reference
+ 
 K. Deb, L. Thiele, M. Laumanns, and E. Zitzler, Scalable test problems
 for evolutionary multiobjective optimization, Evolutionary multiobjective
 Optimization. Theoretical Advances and Applications, 2005, 105-145.
+ 
 |![image](image1/DTLZ1_M2.svg)DTLZ1 (_m_=2)|![image](image1/DTLZ1_M3.svg)DTLZ1 (_m_=3)|
 |:-:|:-:|
 |![image](image1/DTLZ2_M2.svg)DTLZ2 (_m_=2)|![image](image1/DTLZ2_M3.svg)DTLZ2 (_m_=3)|
