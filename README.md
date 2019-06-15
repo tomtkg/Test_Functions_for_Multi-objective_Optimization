@@ -79,3 +79,42 @@ Optimization. Theoretical Advances and Applications, 2005, 105-145.
 |![image](image2/IMMOEA_F7_M2.svg)IMMOEA_F7|![image](image2/IMMOEA_F8_M3.svg)IMMOEA_F8|
 |![image](image2/IMMOEA_F9_M2.svg)IMMOEA_F9|![image](image2/IMMOEA_F10_M2.svg)IMMOEA_F10|
 
+## VNT
+|![image](image2/VNT1_M3.svg)VNT1|![image](image2/VNT2_M3.svg)VNT2|
+|:-:|:-:|
+|![image](image2/VNT3_M3.svg)VNT3|![image](image2/VNT4_M3.svg)VNT4|
+
+## RMMEDA
+|![image](image2/RMMEDA_F1_M2.svg)RMMEDA_F1|![image](image2/RMMEDA_F2_M2.svg)RMMEDA_F2|
+|:-:|:-:|
+|![image](image2/RMMEDA_F3_M2.svg)RMMEDA_F3|![image](image2/RMMEDA_F4_M3.svg)RMMEDA_F4|
+|![image](image2/RMMEDA_F5_M2.svg)RMMEDA_F5|![image](image2/RMMEDA_F6_M2.svg)RMMEDA_F6|
+|![image](image2/RMMEDA_F7_M2.svg)RMMEDA_F7|![image](image2/RMMEDA_F8_M3.svg)RMMEDA_F8|
+|![image](image2/RMMEDA_F9_M2.svg)RMMEDA_F9|![image](image2/RMMEDA_F10_M2.svg)RMMEDA_F10|
+
+## UF
+|![image](image2/UF1_M2.svg)UF1|![image](image2/UF2_M2.svg)UF2|
+|:-:|:-:|
+|![image](image2/UF3_M2.svg)UF3|![image](image2/UF4_M2.svg)UF4|
+|![image](image2/UF5_M2.svg)UF5|![image](image2/UF6_M2.svg)UF6|
+|![image](image2/UF7_M2.svg)UF7|![image](image2/UF8_M3.svg)UF8|
+|![image](image2/UF9_M3.svg)UF9|![image](image2/UF10_M3.svg)UF10|
+|![image](image2/UF11_M5.svg)UF11|![image](image2/UF12_M5.svg)UF12|
+
+## MOEADDE
+|![image](image2/MOEADDE_F1_M2.svg)MOEADDE_F1|![image](image2/MOEADDE_F2_M2.svg)MOEADDE_F2|
+|:-:|:-:|
+|![image](image2/MOEADDE_F3_M2.svg)MOEADDE_F3|![image](image2/MOEADDE_F4_M2.svg)MOEADDE_F4|
+|![image](image2/MOEADDE_F5_M2.svg)MOEADDE_F5|![image](image2/MOEADDE_F6_M3.svg)MOEADDE_F6|
+|![image](image2/MOEADDE_F7_M2.svg)MOEADDE_F7|![image](image2/MOEADDE_F8_M2.svg)MOEADDE_F8|
+|![image](image2/MOEADDE_F9_M2.svg)MOEADDE_F9||
+
+
+## MOEADM2M_F
+|![image](image2/MOEADM2M_F1_M2.svg)MOEADM2M_F1|![image](image2/MOEADM2M_F2_M2.svg)MOEADM2M_F2|
+|:-:|:-:|
+|![image](image2/MOEADM2M_F3_M2.svg)MOEADM2M_F3|![image](image2/MOEADM2M_F4_M2.svg)MOEADM2M_F4|
+|![image](image2/MOEADM2M_F5_M2.svg)MOEADM2M_F5|![image](image2/MOEADM2M_F6_M3.svg)MOEADM2M_F6|
+|![image](image2/MOEADM2M_F7_M3.svg)MOEADM2M_F7||
+
+
