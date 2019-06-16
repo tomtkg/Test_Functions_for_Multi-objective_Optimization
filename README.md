@@ -1,5 +1,5 @@
 # Test_Functions_for_Multi_Objective_Optimization
-test functions for multi-objective optimization
+Test functions for multi-objective optimization
  
 ### Left image is Pareto Front
  
@@ -7,8 +7,12 @@ test functions for multi-objective optimization
 Number of variables _D_ = 5, Population size _N_ = 200
  
 ### Right image is Pareto Front and grid points  
-Number of variables _D_ = 5, points size _N_ = 21^5  
+Number of variables _D_ = 5, Points size _N_ = 21^5  
 Each element is one of {0,0.05,0.1,...,0.95,1}
+ 
+Red points are Parto Optimal Solution  
+Blue points are infeasible Solution  
+Grey points are feasible Solution
  
 ## Example
  
