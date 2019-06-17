@@ -1,7 +1,7 @@
 # Test_Functions_for_Multi_Objective_Optimization
 test functions for multi-bjective optimization
  
-## IMMOEA_F
+## IMMOEA
 Benchmark MOP for Inverse Modeling - MOEA  
 Reference  
 R. Cheng, Y. Jin, K. Narukawa, and B. Sendhoff, A multiobjective
