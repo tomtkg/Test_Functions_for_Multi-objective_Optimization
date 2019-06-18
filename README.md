@@ -18,8 +18,9 @@ Grey points are feasible Solution
 
 ## Example
  
-|![image](image/ZDT1_M2Grid.svg)Pareto Front on the ZDT1|![image](image/ZDT1_M2Init.svg)Initial population on the ZDT1|![image](image/ZDT1_M2Grid.svg)Grid Points on the ZDT1|
+|![image](../image/DTLZ1_M2PF.svg)Pareto Front on the DTLZ1|![image](../image/DTLZ1_M2Init.svg)Initial population on the DTLZ1|![image](../image/DTLZ1_M2Grid.svg)Grid Points on the DTLZ1|
 |:-:|:-:|:-:|
+|![image](../image/DTLZ1_M3PF.svg)Pareto Front on the DTLZ1|![image](../image/DTLZ1_M3Init.svg)Initial population on the DTLZ1|![image](../image/DTLZ1_M3Grid.svg)Grid Points on the DTLZ1|
  
 I use PlatEMO. All Problems directory files and some Public directory files are same as PlatEMO.  
 I hope visitors can help their visual understanding of multi-objective optimization problem.
