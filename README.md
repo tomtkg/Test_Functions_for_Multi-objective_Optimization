@@ -1,6 +1,8 @@
 # Test_Functions_for_Multi_Objective_Optimization
 Test functions for multi-objective optimization
  
+## Please visit Problem directory. I prepared a lot of images
+
 ### Left image is Pareto Front
  
 ### Center image is Pareto Front and initial population  
