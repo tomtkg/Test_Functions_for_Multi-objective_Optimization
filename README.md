@@ -7,14 +7,22 @@ Test functions for multi-objective optimization
 Number of variables _D_ = 5, Population size _N_ = 200
  
 ### Right image is Pareto Front and grid points  
-Number of variables _D_ = 5, Points size _N_ = 21^5, Each element is one of {0,0.05,0.1,...,0.95,1}
+Number of variables _D_ = 5, Points size _N_ = 21^5
  
-
 Red points are Parto Optimal Solution  
 Blue points are infeasible Solution  
 Grey points are feasible Solution  
 
 ## Example
  
-|![image](image/PF1/ZDT1_M2.svg)Pareto Front on the ZDT1 |![image](image/Init_pop/ZDT1_M2.svg)Initial population on the ZDT1|![image](image/Grid/ZDT1_M2.svg) Grid Points on the ZDT1|
+|![image](image/ZDT1_M2Grid.svg)Pareto Front on the ZDT1|![image](image/ZDT1_M2Init.svg)Initial population on the ZDT1|![image](image/ZDT1_M2Grid.svg)Grid Points on the ZDT1|
 |:-:|:-:|:-:|
+ 
+I use PlatEMO. All Problems directory files and some Public directory files are same as PlatEMO.  
+I hope visitors can help their visual understanding of multi-objective optimization problem.
+ 
+Reference  
+Ye Tian, Ran Cheng, Xingyi Zhang, and Yaochu Jin, PlatEMO: A MATLAB platform
+for evolutionary multi-objective optimization [educational forum], IEEE
+Computational Intelligence Magazine, 2017, 12(4): 73-87".  
+[PlatEMO](https://github.com/BIMK/PlatEMO/)
