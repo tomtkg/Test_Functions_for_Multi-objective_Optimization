@@ -16,6 +16,6 @@ Report CES-487, 2009.
 |![image](../../image/UF7_M2PF.svg)Pareto Front on the UF7|![image](../../image/UF7_M2Init.svg)Initial population on the UF7|![image](../../image/UF7_M2Grid.svg)Grid Points on the UF7|
 |![image](../../image/UF8_M3PF.svg)Pareto Front on the UF8|![image](../../image/UF8_M3Init.svg)Initial population on the UF8|![image](../../image/UF8_M3Grid.svg)Grid Points on the UF8|
 |![image](../../image/UF9_M3PF.svg)Pareto Front on the UF9|![image](../../image/UF9_M3Init.svg)Initial population on the UF9|![image](../../image/UF9_M3Grid.svg)Grid Points on the UF9|
-|![image](../../image/UF10_M3PF.svg)Pareto Front on the UF10|![image](../../image/UF1_M3Init.svg)Initial population on the UF10|![image](../../image/UF1_M3Grid.svg)Grid Points on the UF10|
+|![image](../../image/UF10_M3PF.svg)Pareto Front on the UF10|![image](../../image/UF10_M3Init.svg)Initial population on the UF10|![image](../../image/UF10_M3Grid.svg)Grid Points on the UF10|
 
 UF11 and UF12 have 5 objectives. I have no image.

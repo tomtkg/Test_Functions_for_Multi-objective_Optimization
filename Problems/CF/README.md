@@ -16,4 +16,4 @@ Report CES-487, 2009.
 |![image](../../image/CF7_M2PF.svg)Pareto Front on the CF7|![image](../../image/CF7_M2Init.svg)Initial population on the CF7|![image](../../image/CF7_M2Grid.svg)Grid Points on the CF7|
 |![image](../../image/CF8_M3PF.svg)Pareto Front on the CF8|![image](../../image/CF8_M3Init.svg)Initial population on the CF8|![image](../../image/CF8_M3Grid.svg)Grid Points on the CF8|
 |![image](../../image/CF9_M3PF.svg)Pareto Front on the CF9|![image](../../image/CF9_M3Init.svg)Initial population on the CF9|![image](../../image/CF9_M3Grid.svg)Grid Points on the CF9|
-|![image](../../image/CF10_M3PF.svg)Pareto Front on the CF10|![image](../../image/CF1_M3Init.svg)Initial population on the CF10|![image](../../image/CF1_M3Grid.svg)Grid Points on the CF10|
+|![image](../../image/CF10_M3PF.svg)Pareto Front on the CF10|![image](../../image/CF10_M3Init.svg)Initial population on the CF10|![image](../../image/CF10_M3Grid.svg)Grid Points on the CF10|

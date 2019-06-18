@@ -14,5 +14,4 @@ problems, IEEE Computational Intelligence Magazine, 2019.
 |![image](../../image/IMOP6_M3PF.svg)Pareto Front on the IMOP6|![image](../../image/IMOP6_M3Init.svg)Initial population on the IMOP6|![image](../../image/IMOP6_M3Grid.svg)Grid Points on the IMOP6|
 |![image](../../image/IMOP7_M3PF.svg)Pareto Front on the IMOP7|![image](../../image/IMOP7_M3Init.svg)Initial population on the IMOP7|![image](../../image/IMOP7_M3Grid.svg)Grid Points on the IMOP7|
 |![image](../../image/IMOP8_M3PF.svg)Pareto Front on the IMOP8|![image](../../image/IMOP8_M3Init.svg)Initial population on the IMOP8|![image](../../image/IMOP8_M3Grid.svg)Grid Points on the IMOP8|
-|![image](../../image/IMOP9_M3PF.svg)Pareto Front on the IMOP9|![image](../../image/IMOP9_M3Init.svg)Initial population on the IMOP9|![image](../../image/IMOP9_M3Grid.svg)Grid Points on the IMOP9|
-|![image](../../image/IMOP10_M3PF.svg)Pareto Front on the IMOP10|![image](../../image/IMOP1_M3Init.svg)Initial population on the IMOP10|![image](../../image/IMOP1_M3Grid.svg)Grid Points on the IMOP10|
+
