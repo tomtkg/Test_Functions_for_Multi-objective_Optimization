@@ -35,11 +35,13 @@ classdef GLOBAL < handle
         end
         %% Start running the algorithm
         function Start(obj)
+            %Pareto optimal solutions
             POS = obj.problem.PF(10000);
-            
+            %Random generated solutions
             InitX = unifrnd(repmat(obj.lower,obj.N,1),repmat(obj.upper,obj.N,1));
             Init = obj.problem.CalObj(InitX);
             InitC = obj.problem.CalCon(InitX);
+            %Grid generated solutions
             GridX = zeros(obj.P^obj.D,obj.D);
             for j = 1 : obj.P^obj.D
                 for i = 0 : obj.D - 1
