@@ -4,6 +4,14 @@ Reference
 Coello, Carlos A. Coello, Gary B. Lamont, and David A. Van Veldhuizen,
 Evolutionary algorithms for solving multi-objective problems, 2007, 5.
  
+# TMOP1:Schaffer's first (unconstrained) two-objective function
+```math
+F=(f_1(x),f_2(x)), where
+-10^5<=x<=10^5,
+f_1(x)=x^2,
+f_2(x)=(x-2)^2.
+```
+
 |![image](../../image/ZDT1_M2PF.svg)Pareto Front on the ZDT1|![image](../../image/ZDT1_M2Init.svg)Initial population on the ZDT1|![image](../../image/ZDT1_M2Grid.svg)Grid Points on the ZDT1|
 |:-:|:-:|:-:|
 |![image](../../image/ZDT2_M2PF.svg)Pareto Front on the ZDT2|![image](../../image/ZDT2_M2Init.svg)Initial population on the ZDT2|![image](../../image/ZDT2_M2Grid.svg)Grid Points on the ZDT2|
