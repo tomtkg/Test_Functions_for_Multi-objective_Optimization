@@ -2,7 +2,7 @@ function main(varargin)
 
     cd(fileparts(mfilename('fullpath')));
     addpath(genpath(cd));
-    prob = {@LIRCMOP1,@LIRCMOP2,@LIRCMOP3,@LIRCMOP4,@LIRCMOP5,@LIRCMOP6,@LIRCMOP7,@LIRCMOP8,@LIRCMOP9,@LIRCMOP10,@LIRCMOP11,@LIRCMOP12,@LIRCMOP13,@LIRCMOP14};
+    prob = {@MW1,@MW2,@MW3,@MW4,@MW5,@MW6,@MW7,@MW8,@MW9,@MW10,@MW11,@MW12,@MW13,@MW14};
     %{
     %Problems that can not chage the number of objectives
     prob = {@BT1, @BT2, @BT3, @BT4, @BT5, @BT6, @BT7, @BT8, @BT9, ...
@@ -20,7 +20,7 @@ function main(varargin)
         };
     %}
     %
-    for i = 1 : size(prob,2)
+    for i = 12 : size(prob,2)
         varargin = {'-D',5,'-problem',prob{i}};
         Global = GLOBAL(varargin{:});
         Global.Start();
