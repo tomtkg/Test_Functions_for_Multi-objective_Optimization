@@ -2,7 +2,7 @@ function main(varargin)
 
     cd(fileparts(mfilename('fullpath')));
     addpath(genpath(cd));
-    prob = {@DOC1,@DOC2,@DOC3,@DOC4,@DOC5,@DOC6,@DOC7,@DOC8,@DOC9};
+    prob = {@C1_DTLZ3};
     %{
     %Problems that can not chage the number of objectives
     prob = {@BT1, @BT2, @BT3, @BT4, @BT5, @BT6, @BT7, @BT8, @BT9, ...
@@ -19,7 +19,8 @@ function main(varargin)
         @ZDT1, @ZDT2, @ZDT3, @ZDT4, @ZDT6
         };
     %}
-    for i = 9 : size(prob,2)
+    %{
+    for i = 1 : size(prob,2)
         varargin = {'-D',5,'-problem',prob{i}};
         Global = GLOBAL(varargin{:});
         Global.Start();
@@ -29,7 +30,7 @@ function main(varargin)
         @DTLZ5IM, @SDTLZ1, @SDTLZ2, @CDTLZ2, @C1_DTLZ1, @C2_DTLZ2, @C3_DTLZ4, ...
         @SMOP1, @SMOP2, @SMOP3, @SMOP4, @SMOP5, @SMOP6, @SMOP7, @SMOP8, ...
         @WFG1, @WFG2, @WFG3, @WFG4, @WFG5, @WFG6, @WFG7, @WFG8, @WFG9};
-    
+    %}
     for M = 2 : 3
         for i = 1 : size(prob,2)
             varargin = {'-D',5,'-M',M,'-problem',prob{i}};
