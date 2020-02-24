@@ -48,7 +48,7 @@ classdef GLOBAL < handle
                     GridX(j,i+1) = rem(floor((j-1)/obj.P^i),obj.P)/(obj.P-1);
                 end
             end
-            GridX = GridX.*repmat(obj.upper-obj.lower,obj.P^obj.D,1)-repmat(obj.lower,obj.P^obj.D,1);
+            GridX = GridX.*repmat(obj.upper-obj.lower,obj.P^obj.D,1)+repmat(obj.lower,obj.P^obj.D,1);
             Grid = obj.problem.CalObj(GridX);
             GridC = obj.problem.CalCon(GridX);
             
@@ -65,7 +65,7 @@ classdef GLOBAL < handle
             close;
             
             figure('visible', 'off');
-            Draw(POS,'ok','MarkerSize',obj.M-1,'Marker','o','Markerfacecolor',[1 0 0],'Markeredgecolor',[1 0 0]);          
+            Draw(POS,'ok','MarkerSize',obj.M-1,'Marker','o','Markerfacecolor',[1 0 0],'Markeredgecolor',[1 0 0]);
             Draw(Grid(any(GridC>0,2),:),'ok','MarkerSize',4*(obj.M-1),'Marker','o','Markerfacecolor',[0 0 1],'Markeredgecolor',[0 0 1]);
             Draw(Grid(all(GridC<=0,2),:),'ok','MarkerSize',4*(obj.M-1),'Marker','o','Markerfacecolor',[.7 .7 .7],'Markeredgecolor',[.4 .4 .4]);
             xmin = min(POS);
