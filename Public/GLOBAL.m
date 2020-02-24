@@ -42,6 +42,7 @@ classdef GLOBAL < handle
             Init = obj.problem.CalObj(InitX);
             InitC = obj.problem.CalCon(InitX);
             %Grid generated solutions
+            %{
             GridX = zeros(obj.P^obj.D,obj.D);
             for j = 1 : obj.P^obj.D
                 for i = 0 : obj.D - 1
@@ -51,7 +52,7 @@ classdef GLOBAL < handle
             GridX = GridX.*repmat(obj.upper-obj.lower,obj.P^obj.D,1)+repmat(obj.lower,obj.P^obj.D,1);
             Grid = obj.problem.CalObj(GridX);
             GridC = obj.problem.CalCon(GridX);
-            
+            %}
             figure('visible', 'off');
             Draw(POS,'ok','MarkerSize',obj.M-1,'Marker','o','Markerfacecolor',[1 0 0],'Markeredgecolor',[1 0 0]);
             xmin = min(POS);
@@ -60,10 +61,11 @@ classdef GLOBAL < handle
             
             Draw(Init(any(InitC>0,2),:),'ok','MarkerSize',4*(obj.M-1),'Marker','o','Markerfacecolor',[0 0 1],'Markeredgecolor',[0 0 1]);
             Draw(Init(all(InitC<=0,2),:),'ok','MarkerSize',4*(obj.M-1),'Marker','o','Markerfacecolor',[.7 .7 .7],'Markeredgecolor',[.4 .4 .4]);
+            xmin = min(vertcat(xmin,Init));
             xmax = max(vertcat(xmax,Init));
             SaveFig(obj,xmin,xmax,'Init');
             close;
-            
+            %{
             figure('visible', 'off');
             Draw(POS,'ok','MarkerSize',obj.M-1,'Marker','o','Markerfacecolor',[1 0 0],'Markeredgecolor',[1 0 0]);
             Draw(Grid(any(GridC>0,2),:),'ok','MarkerSize',4*(obj.M-1),'Marker','o','Markerfacecolor',[0 0 1],'Markeredgecolor',[0 0 1]);
@@ -72,7 +74,7 @@ classdef GLOBAL < handle
             xmax = max(vertcat(POS,Grid));
             SaveFig(obj,xmin,xmax,'Grid');
             close;
-
+            %}
         end
         %% Obtain the parameter settings from user
         function varargout = ParameterSet(obj,varargin)
