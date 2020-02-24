@@ -2,7 +2,7 @@ function main(varargin)
 
     cd(fileparts(mfilename('fullpath')));
     addpath(genpath(cd));
-    prob = {@C1_DTLZ3};
+    prob = {@LIRCMOP1,@LIRCMOP2,@LIRCMOP3,@LIRCMOP4,@LIRCMOP5,@LIRCMOP6,@LIRCMOP7,@LIRCMOP8,@LIRCMOP9,@LIRCMOP10,@LIRCMOP11,@LIRCMOP12,@LIRCMOP13,@LIRCMOP14};
     %{
     %Problems that can not chage the number of objectives
     prob = {@BT1, @BT2, @BT3, @BT4, @BT5, @BT6, @BT7, @BT8, @BT9, ...
@@ -19,7 +19,7 @@ function main(varargin)
         @ZDT1, @ZDT2, @ZDT3, @ZDT4, @ZDT6
         };
     %}
-    %{
+    %
     for i = 1 : size(prob,2)
         varargin = {'-D',5,'-problem',prob{i}};
         Global = GLOBAL(varargin{:});
@@ -27,10 +27,10 @@ function main(varargin)
     end
     %Problems that can chage the number of objectives
     prob = {@DTLZ1, @DTLZ2, @DTLZ3, @DTLZ4, @DTLZ5, @DTLZ6, @DTLZ7, @DTLZ8, @DTLZ9, ...
-        @DTLZ5IM, @SDTLZ1, @SDTLZ2, @CDTLZ2, @C1_DTLZ1, @C2_DTLZ2, @C3_DTLZ4, ...
+        @DTLZ5IM, @SDTLZ1, @SDTLZ2, @CDTLZ2, @C1_DTLZ1, @C1_DTLZ3, @C2_DTLZ2, @C3_DTLZ4, ...
         @SMOP1, @SMOP2, @SMOP3, @SMOP4, @SMOP5, @SMOP6, @SMOP7, @SMOP8, ...
         @WFG1, @WFG2, @WFG3, @WFG4, @WFG5, @WFG6, @WFG7, @WFG8, @WFG9};
-    %}
+
     for M = 2 : 3
         for i = 1 : size(prob,2)
             varargin = {'-D',5,'-M',M,'-problem',prob{i}};
