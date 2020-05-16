@@ -2,8 +2,7 @@ function main(varargin)
 
     cd(fileparts(mfilename('fullpath')));
     addpath(genpath(cd));
-    prob = {@TREE1, @TREE2, @TREE3, @TREE4, @TREE5, @TREE6};
-    %{
+    
     %Problems that can not chage the number of objectives
     prob = {@BT1, @BT2, @BT3, @BT4, @BT5, @BT6, @BT7, @BT8, @BT9, ...
         @CF1, @CF2, @CF3, @CF4, @CF5, @CF6, @CF7, @CF8, @CF9, @CF10, ...
@@ -19,7 +18,7 @@ function main(varargin)
         @VNT1, @VNT2, @VNT3, @VNT4, ...
         @ZDT1, @ZDT2, @ZDT3, @ZDT4, @ZDT6
         };
-    %}
+    
     for i = 6 : size(prob,2)
         varargin = {'-D',5,'-problem',prob{i}};
         Global = GLOBAL(varargin{:});
@@ -44,5 +43,6 @@ function main(varargin)
     %@LSMOP1, @LSMOP2, @LSMOP3, @LSMOP4, @LSMOP5, @LSMOP6, @LSMOP7, @LSMOP8, @LSMOP9, ...
     %@MOKP, @MONRP, @MOTSP, @mQAP, ...
     %@MLDMP, @MPDMP, ...
+    %@TREE1, @TREE2, @TREE3, @TREE4, @TREE5, @TREE6
     %@ZDT5, @UF11, @UF12
 end
