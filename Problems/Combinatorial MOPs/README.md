@@ -17,6 +17,7 @@ problem, Proceedings of the 9th Annual Conference on Genetic and
 Evolutionary Computation, 2007, 1129-1137.
 
 |![image](../../image/MONRP_M2PF.svg)Pareto Front on the MONRP|![image](../../image/MONRP_M2Init.svg)Initial population on the MONRP|MONRP have binary encoding decision variables. I have no image.|
+|:-:|:-:|:-:|
 
 The multi-objective traveling salesman problem  
 Reference  
