@@ -17,8 +17,6 @@ problem, Proceedings of the 9th Annual Conference on Genetic and
 Evolutionary Computation, 2007, 1129-1137.
 
 |![image](../../image/MONRP_M2PF.svg)Pareto Front on the MONRP|![image](../../image/MONRP_M2Init.svg)Initial population on the MONRP|MONRP have binary encoding decision variables. I have no image.|
-|:-:|:-:|:-:|
-|![image](../../image/MONRP_M3PF.svg)Pareto Front on the MONRP|![image](../../image/MONRP_M3Init.svg)Initial population on the MONRP|MONRP have binary encoding decision variables. I have no image.|
 
 The multi-objective traveling salesman problem  
 Reference  
@@ -38,6 +36,6 @@ multiobjective quadratic assignment problem, Proceedings of the
 International Conference on Evolutionary Multi-Criterion Optimization,
 2003, 295-310.
 
-|![image](../../image/MQAP_M2PF.svg)Pareto Front on the MQAP|![image](../../image/MQAP_M2Init.svg)Initial population on the MQAP|MQAP have binary encoding decision variables. I have no image.|
+|![image](../../image/mQAP_M2PF.svg)Pareto Front on the mQAP|![image](../../image/mQAP_M2Init.svg)Initial population on the mQAP|mQAP have binary encoding decision variables. I have no image.|
 |:-:|:-:|:-:|
-|![image](../../image/MQAP_M3PF.svg)Pareto Front on the MQAP|![image](../../image/MQAP_M3Init.svg)Initial population on the MQAP|MQAP have binary encoding decision variables. I have no image.|
+|![image](../../image/mQAP_M3PF.svg)Pareto Front on the mQAP|![image](../../image/mQAP_M3Init.svg)Initial population on the mQAP|mQAP have binary encoding decision variables. I have no image.|
