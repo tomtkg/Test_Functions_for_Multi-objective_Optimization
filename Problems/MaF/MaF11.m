@@ -24,7 +24,7 @@ classdef MaF11 < PROBLEM
             if isempty(obj.Global.D)
                 obj.Global.D = obj.Global.M + 9;
             end
-            obj.Global.D        = ceil((obj.Global.D-obj.Global.M+1)/2)*2 + obj.Global.M - 1;
+            obj.Global.D        = floor((obj.Global.D-obj.Global.M+1)/2)*2 + obj.Global.M - 1;
             obj.Global.lower    = zeros(1,obj.Global.D);
             obj.Global.upper    = 2 : 2 : 2*obj.Global.D;
             obj.Global.encoding = 'real';

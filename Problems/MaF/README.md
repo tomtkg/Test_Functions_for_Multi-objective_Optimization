@@ -20,9 +20,7 @@ Complex & Intelligent Systems, 2017, 3(1): 67-81.
 |![image](../../image/MaF6_M3PF.svg)Pareto Front on the MaF6|![image](../../image/MaF6_M3Init.svg)Initial population on the MaF6|![image](../../image/MaF6_M3Grid.svg)Grid Points on the MaF6|
 |![image](../../image/MaF7_M2PF.svg)Pareto Front on the MaF7|![image](../../image/MaF7_M2Init.svg)Initial population on the MaF7|![image](../../image/MaF7_M2Grid.svg)Grid Points on the MaF7|
 |![image](../../image/MaF7_M3PF.svg)Pareto Front on the MaF7|![image](../../image/MaF7_M3Init.svg)Initial population on the MaF7|![image](../../image/MaF7_M3Grid.svg)Grid Points on the MaF7|
-|![image](../../image/MaF8_M2PF.svg)Pareto Front on the MaF8|![image](../../image/MaF8_M2Init.svg)Initial population on the MaF8|![image](../../image/MaF8_M2Grid.svg)Grid Points on the MaF8|
 |![image](../../image/MaF8_M3PF.svg)Pareto Front on the MaF8|![image](../../image/MaF8_M3Init.svg)Initial population on the MaF8|![image](../../image/MaF8_M3Grid.svg)Grid Points on the MaF8|
-|![image](../../image/MaF9_M2PF.svg)Pareto Front on the MaF9|![image](../../image/MaF9_M2Init.svg)Initial population on the MaF9|![image](../../image/MaF9_M2Grid.svg)Grid Points on the MaF9|
 |![image](../../image/MaF9_M3PF.svg)Pareto Front on the MaF9|![image](../../image/MaF9_M3Init.svg)Initial population on the MaF9|![image](../../image/MaF9_M3Grid.svg)Grid Points on the MaF9|
 |![image](../../image/MaF10_M2PF.svg)Pareto Front on the MaF10|![image](../../image/MaF10_M2Init.svg)Initial population on the MaF10|![image](../../image/MaF10_M2Grid.svg)Grid Points on the MaF10|
 |![image](../../image/MaF10_M3PF.svg)Pareto Front on the MaF10|![image](../../image/MaF10_M3Init.svg)Initial population on the MaF10|![image](../../image/MaF10_M3Grid.svg)Grid Points on the MaF10|
