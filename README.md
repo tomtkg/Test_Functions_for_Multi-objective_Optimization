@@ -16,7 +16,7 @@ Red points are Parto Optimal Solution
 Blue points are infeasible Solution  
 Grey points are feasible Solution  
 
-## Example([/Problems/DTLZ](../../tree/master/Problems/DTLZ))
+## Example([./Problems/DTLZ](./Problems/DTLZ/README.md))
 
 |![image](image/DTLZ1_M2PF.svg)Pareto Front on the DTLZ1|![image](image/DTLZ1_M2Init.svg)Initial population on the DTLZ1|![image](image/DTLZ1_M2Grid.svg)Grid Points on the DTLZ1|
 |:-:|:-:|:-:|
