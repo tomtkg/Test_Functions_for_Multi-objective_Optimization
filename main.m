@@ -10,7 +10,7 @@ function main(varargin)
         @MaF1, @MaF2, @MaF3, @MaF4, @MaF5, @MaF6, @MaF7, @MaF10, @MaF11, @MaF12, @MaF13, @MaF14, @MaF15 ...
         @SMOP1, @SMOP2, @SMOP3, @SMOP4, @SMOP5, @SMOP6, @SMOP7, @SMOP8 ...
         @WFG1, @WFG2, @WFG3, @WFG4, @WFG5, @WFG6, @WFG7, @WFG8, @WFG9};
-    
+     prob = {@DTLZ8, @DTLZ9};
     for M = 2 : 3
         for i = 1 : size(prob,2)
             varargin = {'-D',5,'-M',M,'-problem',prob{i}};

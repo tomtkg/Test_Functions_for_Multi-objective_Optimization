@@ -61,7 +61,7 @@ Transactions on Evolutionary Computation, 2014, 18(4): 602-622.
 |:-:|:-:|:-:|
 |![image](../../image/C1_DTLZ1_M3PF.svg)Pareto Front on the C1_DTLZ1|![image](../../image/C1_DTLZ1_M3Init.svg)Initial population on the C1_DTLZ1|![image](../../image/C1_DTLZ1_M3Grid.svg)Grid Points on the C1_DTLZ1|
 |![image](../../image/C1_DTLZ3_M2PF.svg)Pareto Front on the C1_DTLZ3|![image](../../image/C1_DTLZ3_M2Init.svg)Initial population on the C1_DTLZ3|![image](../../image/C1_DTLZ3_M2Grid.svg)Grid Points on the C1_DTLZ3|
-|![image](../../image/C1_DTLZ3_M3PF.svg)Pareto Front on the C1_DTLZ3|![image](../../image/C1_DTLZ3_M3Init.svg)Initial population on the C1_DTLZ3|![image](../../image/C1_DTLZ3_M3Grid.svg)Grid Points on the C1_DTLZ1|
+|![image](../../image/C1_DTLZ3_M3PF.svg)Pareto Front on the C1_DTLZ3|![image](../../image/C1_DTLZ3_M3Init.svg)Initial population on the C1_DTLZ3|![image](../../image/C1_DTLZ3_M3Grid.svg)Grid Points on the C1_DTLZ3|
 |![image](../../image/C2_DTLZ2_M2PF.svg)Pareto Front on the C2_DTLZ2|![image](../../image/C2_DTLZ2_M2Init.svg)Initial population on the C2_DTLZ2|![image](../../image/C2_DTLZ2_M2Grid.svg)Grid Points on the C2_DTLZ2|
 |![image](../../image/C2_DTLZ2_M3PF.svg)Pareto Front on the C2_DTLZ2|![image](../../image/C2_DTLZ2_M3Init.svg)Initial population on the C2_DTLZ2|![image](../../image/C2_DTLZ2_M3Grid.svg)Grid Points on the C2_DTLZ2|
 |![image](../../image/C3_DTLZ4_M2PF.svg)Pareto Front on the C3_DTLZ4|![image](../../image/C3_DTLZ4_M2Init.svg)Initial population on the C3_DTLZ4|![image](../../image/C3_DTLZ4_M2Grid.svg)Grid Points on the C3_DTLZ4|
