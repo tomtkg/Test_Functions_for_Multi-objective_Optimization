@@ -67,4 +67,5 @@ function main(varargin)
     
     %Problems that can not be used with this visualizer program
     %prob = {@UF11, @UF12}
+    %UF11 and UF12 have 5 objectives. I have no image.
 end

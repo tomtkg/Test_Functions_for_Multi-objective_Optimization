@@ -12,4 +12,4 @@ voltage transformers, IEEE Transactions on Evolutionary Computation,
 |![image](../../image/TREE3_M2PF.svg)Pareto Front on the TREE3|![image](../../image/TREE3_M2Init.svg)Initial population on the TREE3|TREE have too many decision variables.I have no image.|
 |![image](../../image/TREE4_M2PF.svg)Pareto Front on the TREE4|![image](../../image/TREE4_M2Init.svg)Initial population on the TREE4|TREE have too many decision variables.I have no image.|
 |![image](../../image/TREE5_M2PF.svg)Pareto Front on the TREE5|![image](../../image/TREE5_M2Init.svg)Initial population on the TREE5|TREE have too many decision variables.I have no image.|
-|![image](../../image/TREE6_M2PF.svg)Pareto Front on the TREE6|![image](../../image/TREE6_M2Init.svg)Initial population on the TREE6|TREE have too many decision variables.I have no image.|
+|![image](../../image/TREE6_M3PF.svg)Pareto Front on the TREE6|![image](../../image/TREE6_M3Init.svg)Initial population on the TREE6|TREE have too many decision variables.I have no image.|
