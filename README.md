@@ -4,17 +4,15 @@ Test functions for multi-objective optimization
 ## Please visit Problem directory.
 ## I prepared a lot of images
 
-### Left image is Pareto Front
+### Left image is Pareto front  
+### Center image is Pareto front and random points  
+Point size _N_ = 200. Number of variables _D_ = 5 (if possible).  
+### Right image is Pareto front and grid points  
+Point size _N_ = 21^5. Number of variables _D_ = 5 (if possible).  
 
-### Center image is Pareto Front and initial population  
-Number of variables _D_ = 5, Population size _N_ = 200
-
-### Right image is Pareto Front and grid points  
-Number of variables _D_ = 5, Points size _N_ = 21^5
-
-Red points are Parto Optimal Solution  
-Blue points are infeasible Solution  
-Grey points are feasible Solution  
+Red points are Parto optimal solution.  
+Blue points are infeasible solution.  
+Grey points are feasible solution.  
 
 ## Example([./Problems/DTLZ](./Problems/DTLZ/README.md))
 
