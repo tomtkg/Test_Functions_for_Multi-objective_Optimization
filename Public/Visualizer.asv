@@ -1,0 +1,48 @@
+function Visualizer(data)
+    figure('Position',[100 100 400 400],'Visible','off');
+    set(gca,'Fontname','Times New Roman','FontSize',13,'NextPlot','add','Color','none','Box','on','LooseInset',get(gca,'TightInset'));
+    xlabel('\it f\rm_1'); ylabel('\it f\rm_2'); axis square;
+    if width(data.POS) == 3
+        set(gca,'View',[135 30]); zlabel('\it f\rm_3');
+    end
+    
+    Draw(data.POS,1,'r','r');
+    Setlim(data.POS);
+    exportgraphics(gcf,[data.Name,'_PF.png']);
+    
+    OK = data.RandObj(all(data.RandCon<=0,2),:);
+    NG = data.RandObj(any(data.RandCon>0,2),:);
+    h1 = Draw(OK,4,[.7 .7 .7],[.4 .4 .4]);
+    h2 = Draw(NG,4,'b','b');
+    Setlim([data.POS;data.RandObj]);
+    exportgraphics(gcf,[data.Name,'_Rand.png']);
+    
+    if nargin == 6
+        delete(h1); delete(h2);
+        OK = data.GridObj(all(GridCon<=0,2),:);
+        NG = data.GridObj(any(GridCon>0,2),:);
+        Draw(OK,4,[.7 .7 .7],[.4 .4 .4]);
+        Draw(NG,4,'b','b');
+        Setlim([POS;GridObj]);
+        exportgraphics(gcf,[name,'_Grid.png']);
+    end
+    
+    close;
+end
+function h = Draw(data,varargin)
+    if width(data) == 2
+        h = plot(data(:,1),data(:,2),'ok','MarkerSize',varargin{1},'Markerfacecolor',varargin{2},'Markeredgecolor',varargin{3});
+    elseif width(data) == 3
+        h = plot3(data(:,1),data(:,2),data(:,3),'ok','MarkerSize',2*varargin{1},'Markerfacecolor',varargin{2},'Markeredgecolor',varargin{3});
+    end
+end
+function Setlim(data)
+    Min = min(data,[],1); Max = max(data,[],1); D = (Max-Min)/20;
+    xlim([Min(1)-D(1) Max(1)+D(1)]); ylim([Min(2)-D(2) Max(2)+D(2)]);
+    if width(data) == 3
+        if D(3) == 0
+            D(3) = 0.55;
+        end
+        zlim([Min(3)-D(3) Max(3)+D(3)]);
+    end
+end

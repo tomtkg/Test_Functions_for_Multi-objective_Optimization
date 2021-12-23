@@ -1,0 +1,81 @@
+classdef GLOBAL < handle
+    properties
+        N = 200;   % Population size
+    end
+    properties(SetAccess = ?PROBLEM)
+        M;         % Number of objectives
+        D;     % Number of decision variables
+        lower;     % Lower bound of each decision variable
+        upper;     % Upper bound of each decision variable
+        encoding;  % Encoding of the problem
+    end
+    properties(SetAccess = private)
+        problem;   % Problem function
+        PF;        % True Pareto front
+        parameter; % Parameters of functions specified by users
+    end
+    methods
+        %% Constructor
+        function obj = GLOBAL(varargin)
+            obj.GetObj(obj);
+            obj.M = varargin{1};
+            obj.D = varargin{2};
+            obj.problem = varargin{3}();
+            addpath(fileparts(which(class(obj.problem))));
+        end
+        %% Start running the algorithm
+        function Start(obj)
+            data.Name = ['image\',class(obj.problem),'_M',int2str(obj.M)];
+            switch obj.encoding
+                case 'binary'
+                    data.RandX = randi([0,1],obj.N,obj.D);
+                    GridX = ff2n(obj.D);
+                    data.GridObj = obj.problem.CalObj(GridX);
+                    data.GridCon = obj.problem.CalCon(GridX);
+                    POS = GridObj(all(GridCon<=0,2),:);
+                    POS = POS(NDSort(POS,1)==1,:);
+                case 'permutation'
+                    [~,RandX] = sort(rand(obj.N,obj.D),2);
+                    GridX = perms(1:obj.D);
+                    GridObj = obj.problem.CalObj(GridX);
+                    GridCon = obj.problem.CalCon(GridX);
+                    POS = GridObj(all(GridCon<=0,2),:);
+                    POS = POS(NDSort(POS,1)==1,:);
+                otherwise
+                    RandX = unifrnd(repmat(obj.lower,obj.N,1),repmat(obj.upper,obj.N,1));
+                    GridObj=nan; GridCon=nan;
+                    if obj.D == 5
+                        div = 21;
+                        GridX = zeros(div^obj.D,obj.D);
+                        for j = 1 : div^obj.D
+                            for i = 0 : obj.D - 1
+                                GridX(j,i+1) = rem(floor((j-1)/div^i),div)/(div-1);
+                            end
+                        end
+                        GridX = GridX.*repmat(obj.upper-obj.lower,div^obj.D,1)+repmat(obj.lower,div^obj.D,1);
+                        GridObj = obj.problem.CalObj(GridX);
+                        GridCon = obj.problem.CalCon(GridX);
+                    end
+                    POS = obj.problem.PF(20000);
+            end
+            RandObj = obj.problem.CalObj(RandX);
+            RandCon = obj.problem.CalCon(RandX);
+            Visualizer(name,POS,RandObj,RandCon,GridObj,GridCon);
+        end
+        %% Obtain the parameter settings from user
+        function varargout = ParameterSet(~,varargin)
+            varargout = varargin;
+        end
+    end
+    methods(Static)
+        %% Get the current GLOBAL object
+        function obj = GetObj(obj)
+            persistent Global;
+            if nargin > 0
+                Global = obj;
+            else
+                obj = Global;
+            end
+        end
+    end
+end
