@@ -20,4 +20,3 @@ Y. Tian, R. Cheng, X. Zhang, M. Li, and Y. Jin, Diversity assessment of multi-ob
 |Pareto Front on the IMOP7 (_M_=3)|Random points on the IMOP7 (_M_=3)|Grid Points on the IMOP7 (_M_=3)|
 |![](../../image/IMOP8_M3_PF.png)|![](../../image/IMOP8_M3_Rand.png)|![](../../image/IMOP8_M3_Grid.png)|
 |Pareto Front on the IMOP8 (_M_=3)|Random points on the IMOP8 (_M_=3)|Grid Points on the IMOP8 (_M_=3)|
-

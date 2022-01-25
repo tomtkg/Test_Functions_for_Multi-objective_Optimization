@@ -1,5 +1,5 @@
 # SMOP: Benchmark MOP with sparse Pareto optimal solutions
-Reference
+Reference  
 Y. Tian, X. Zhang, C. Wang, and Y. Jin, An evolutionary algorithm for large-scale sparse multi-objective optimization problems, IEEE Transactions on Evolutionary Computation, 2019, 24(2): 380-393.
 
 ||||
