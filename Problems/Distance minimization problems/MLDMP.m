@@ -67,9 +67,14 @@ classdef MLDMP < PROBLEM
         end
         %% Sample reference points on Pareto front
         function P = PF(obj,N)
-            [X,Y] = ndgrid(linspace(-1,1,ceil(sqrt(N))));
-            ND    = inpolygon(X(:),Y(:),obj.Points(:,1),obj.Points(:,2));
-            P     = obj.CalObj([X(ND),Y(ND)]);
+            if obj.Global.M == 2
+                P(:,1) = (0:1/(N-1):1)';
+                P(:,2) = 1 - P(:,1);
+            else
+                [X,Y] = ndgrid(linspace(-1,1,ceil(sqrt(N))));
+                ND    = inpolygon(X(:),Y(:),obj.Points(:,1),obj.Points(:,2));
+                P     = obj.CalObj([X(ND),Y(ND)]);
+            end
         end
         %% Draw special figure
         function Draw(obj,PopDec)
