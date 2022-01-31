@@ -24,7 +24,7 @@ classdef DTLZ8 < PROBLEM
             if isempty(obj.Global.D)
                 obj.Global.D = 10*obj.Global.M;
             end
-            %obj.Global.D        = ceil(obj.Global.D/obj.Global.M)*obj.Global.M;
+            obj.Global.D        = ceil(obj.Global.D/obj.Global.M)*obj.Global.M;
             obj.Global.lower    = zeros(1,obj.Global.D);
             obj.Global.upper    = ones(1,obj.Global.D);
             obj.Global.encoding = 'real';
